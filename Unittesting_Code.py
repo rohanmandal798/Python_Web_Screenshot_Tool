@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch, MagicMock
 import os
 from selenium.common.exceptions import WebDriverException
-from screenshot_tool import ensure_full_url, capture_screenshot
+from Screenshot_Tool import ensure_full_url, capture_screenshot
 
 class TestScreenshotTool(unittest.TestCase):
 
